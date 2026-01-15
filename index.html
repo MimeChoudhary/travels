@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Anubhav Travels - Time 2 Journey | Your Trusted Travel Partner</title>
+  <script src="/_sdk/element_sdk.js"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <style>@view-transition { navigation: auto; }</style>
+  <script src="/_sdk/data_sdk.js" type="text/javascript"></script>
+</head>
+<body>
+  <div id="app">
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top shadow-sm" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand fw-bold" href="#" id="nav-brand">
+          <i class="fas fa-plane text-primary me-2"></i>Anubhav Travels
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+            <li class="nav-item"><a class="nav-link" href="#destinations">Destinations</a></li>
+            <li class="nav-item"><a class="nav-link" href="#testimonials">Reviews</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+      <div class="hero-overlay"></div>
+      <div class="container">
+        <div class="row align-items-center min-vh-100">
+          <div class="col-lg-8 mx-auto text-center text-white">
+            <h1 class="display-3 fw-bold mb-4 animate-fade-in" id="hero-title">Explore Delhi Tourism & Beyond</h1>
+            <p class="lead mb-5 animate-fade-in" id="hero-subtitle">Your trusted travel partner for memorable experiences. We provide complete travel arrangements with highest level of satisfaction.</p>
+            <a href="#booking" class="btn btn-primary btn-lg px-5 py-3 animate-fade-in" id="cta-button">Plan Your Journey</a>
+          </div>
+        </div>
+      </div>
+      <!-- Search Form -->
+      <div class="search-form-container">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-lg-10">
+              <div class="search-form-card">
+                <form class="row g-3">
+                  <div class="col-md-4">
+                    <label class="form-label"><i class="fas fa-map-marker-alt me-2"></i>Where to?</label>
+                    <input type="text" class="form-control" placeholder="Enter destination">
+                  </div>
+                  <div class="col-md-3">
+                    <label class="form-label"><i class="fas fa-calendar me-2"></i>Check In</label>
+                    <input type="date" class="form-control">
+                  </div>
+                  <div class="col-md-3">
+                    <label class="form-label"><i class="fas fa-calendar me-2"></i>Check Out</label>
+                    <input type="date" class="form-control">
+                  </div>
+                  <div class="col-md-2">
+                    <label class="form-label"><i class="fas fa-users me-2"></i>Guests</label>
+                    <input type="number" class="form-control" placeholder="2" min="1">
+                  </div>
+                  <div class="col-12 text-center mt-3">
+                    <button type="submit" class="btn btn-primary btn-lg px-5 search-btn">
+                      <i class="fas fa-search me-2"></i>Search
+                    </button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-5">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-6 mb-4 mb-lg-0">
+            <div class="about-image">
+              <div class="image-placeholder">
+                <i class="fas fa-globe-asia fa-5x text-primary"></i>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <h2 class="section-title mb-4">About Anubhav Travels</h2>
+            <p class="lead">Anubhav Travels has an aim to help tourists explore the beauty and depth of Delhi Tourism with highest level of satisfaction. Company believes in commitment and practice what we promise.</p>
+            <p>Anubhav Travels has been working hard for years to develop close relationships with hoteliers, aircraft and travel escorts to be able to produce competitively priced services and tours. We do everything we can do to ensure satisfaction and memorable experience for you.</p>
+            <p>We are well experienced and are providing custom itineraries for individual and group travellers, government and business delegates. Anubhav Travels is well known for its professionally managed tourism services.</p>
+            <div class="row mt-4">
+              <div class="col-md-6 mb-3">
+                <div class="feature-box">
+                  <i class="fas fa-award text-primary fa-2x mb-3"></i>
+                  <h5>Recognized by Government</h5>
+                  <p class="text-muted">Department of Tourism, Government of India</p>
+                </div>
+              </div>
+              <div class="col-md-6 mb-3">
+                <div class="feature-box">
+                  <i class="fas fa-users text-primary fa-2x mb-3"></i>
+                  <h5>Expert Team</h5>
+                  <p class="text-muted">Professional multilingual guides</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-5 bg-light">
+      <div class="container">
+        <div class="text-center mb-5">
+          <h2 class="section-title">Our Services</h2>
+          <p class="text-muted">Complete travel solutions under one roof</p>
+        </div>
+        <div class="row g-4">
+          <div class="col-md-6 col-lg-4">
+            <div class="service-card h-100">
+              <div class="service-icon">
+                <i class="fas fa-plane"></i>
+              </div>
+              <h4>Air Ticketing</h4>
+              <p>Domestic and International air tickets. Wired to Amadeus and Galileo for seamless booking.</p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="service-card h-100">
+              <div class="service-icon">
+                <i class="fas fa-hotel"></i>
+              </div>
+              <h4>Hotel Reservations</h4>
+              <p>Worldwide and India hotel bookings. Hassle-free reservation service for domestic and international locations.</p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="service-card h-100">
+              <div class="service-icon">
+                <i class="fas fa-passport"></i>
+              </div>
+              <h4>Visa & Passport</h4>
+              <p>Professional visa and passport services. Document legalisation and attestation services.</p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="service-card h-100">
+              <div class="service-icon">
+                <i class="fas fa-globe"></i>
+              </div>
+              <h4>Inbound & Outbound Tours</h4>
+              <p>Customized tour packages for travellers from other countries and foreign destinations.</p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="service-card h-100">
+              <div class="service-icon">
+                <i class="fas fa-heart"></i>
+              </div>
+              <h4>Honeymoon Packages</h4>
+              <p>Tailor-made honeymoon packages for major tourist destinations across the world.</p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="service-card h-100">
+              <div class="service-icon">
+                <i class="fas fa-briefcase"></i>
+              </div>
+              <h4>Corporate Tours</h4>
+              <p>Exclusive destinations for corporate tours, meetings, exhibitions and conferences.</p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="service-card h-100">
+              <div class="service-icon">
+                <i class="fas fa-calendar-check"></i>
+              </div>
+              <h4>Event Management</h4>
+              <p>Complete event management services from planning to execution for all types of events.</p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="service-card h-100">
+              <div class="service-icon">
+                <i class="fas fa-exchange-alt"></i>
+              </div>
+              <h4>Foreign Exchange</h4>
+              <p>Competitive rates for foreign exchange. Online purchase and doorstep delivery in selected cities.</p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="service-card h-100">
+              <div class="service-icon">
+                <i class="fas fa-shield-alt"></i>
+              </div>
+              <h4>Medical Insurance</h4>
+              <p>Comprehensive medical and health insurance packages for travel, business or study.</p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="service-card h-100">
+              <div class="service-icon">
+                <i class="fas fa-concierge-bell"></i>
+              </div>
+              <h4>Airport Meet & Greet</h4>
+              <p>Quality airport meet and greet service with hassle-free transfer to your destination.</p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="service-card h-100">
+              <div class="service-icon">
+                <i class="fas fa-car"></i>
+              </div>
+              <h4>Car Rentals & Taxi</h4>
+              <p>Car & coach rentals for comfortable travel. Taxi services available.</p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="service-card h-100">
+              <div class="service-icon">
+                <i class="fas fa-file-signature"></i>
+              </div>
+              <h4>Document Attestation</h4>
+              <p>Document legalisation services from various foreign embassies and MEA.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Destinations Section -->
+    <section id="destinations" class="py-5">
+      <div class="container">
+        <div class="text-center mb-5">
+          <h2 class="section-title" id="destinations-title">Popular Destinations</h2>
+          <p class="text-muted">We offer travel packages to destinations worldwide. Contact us for customized itineraries.</p>
+        </div>
+        <div class="row g-4">
+          <div class="col-md-6 col-lg-4">
+            <div class="destination-card">
+              <div class="destination-image">
+                <div class="destination-badge">Featured</div>
+                <div class="image-placeholder bg-primary">
+                  <i class="fas fa-mountain fa-3x text-white"></i>
+                </div>
+              </div>
+              <div class="destination-content">
+                <h4>Santorini, Greece</h4>
+                <p class="text-muted">Stunning sunsets and white-washed architecture</p>
+                <div class="d-flex justify-content-between align-items-center mt-3">
+                  <span class="price">$1,299</span>
+                  <button class="btn btn-sm btn-primary">View Details</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="destination-card">
+              <div class="destination-image">
+                <div class="destination-badge bg-success">Popular</div>
+                <div class="image-placeholder bg-warning">
+                  <i class="fas fa-city fa-3x text-white"></i>
+                </div>
+              </div>
+              <div class="destination-content">
+                <h4>Dubai, UAE</h4>
+                <p class="text-muted">Luxury shopping and modern architecture</p>
+                <div class="d-flex justify-content-between align-items-center mt-3">
+                  <span class="price">$1,599</span>
+                  <button class="btn btn-sm btn-primary">View Details</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="destination-card">
+              <div class="destination-image">
+                <div class="destination-badge bg-info">New</div>
+                <div class="image-placeholder bg-success">
+                  <i class="fas fa-umbrella-beach fa-3x text-white"></i>
+                </div>
+              </div>
+              <div class="destination-content">
+                <h4>Bali, Indonesia</h4>
+                <p class="text-muted">Tropical paradise with rich culture</p>
+                <div class="d-flex justify-content-between align-items-center mt-3">
+                  <span class="price">$899</span>
+                  <button class="btn btn-sm btn-primary">View Details</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Booking Section -->
+    <section id="booking" class="py-5 bg-light">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <div class="booking-card">
+              <div class="text-center mb-4">
+                <h2 class="section-title" id="booking-title">Plan Your Journey</h2>
+                <p class="text-muted">Fill out the form below and we'll get back to you with a personalized quote</p>
+              </div>
+              <form id="booking-form" class="row g-3">
+                <div class="col-md-6">
+                  <label class="form-label">Full Name</label>
+                  <input type="text" class="form-control" id="full-name" placeholder="John Doe" required>
+                </div>
+                <div class="col-md-6">
+                  <label class="form-label">Email Address</label>
+                  <input type="email" class="form-control" id="email" placeholder="john@example.com" required>
+                </div>
+                <div class="col-md-6">
+                  <label class="form-label">Destination</label>
+                  <select class="form-select" id="destination" required>
+                    <option value="">Select destination</option>
+                    <option value="santorini">Santorini, Greece</option>
+                    <option value="dubai">Dubai, UAE</option>
+                    <option value="bali">Bali, Indonesia</option>
+                    <option value="paris">Paris, France</option>
+                    <option value="tokyo">Tokyo, Japan</option>
+                  </select>
+                </div>
+                <div class="col-md-6">
+                  <label class="form-label">Travel Date</label>
+                  <input type="date" class="form-control" id="travel-date" required>
+                </div>
+                <div class="col-md-6">
+                  <label class="form-label">Number of Guests</label>
+                  <input type="number" class="form-control" id="guests" min="1" max="10" placeholder="2" required>
+                </div>
+                <div class="col-md-6">
+                  <label class="form-label">Budget Range</label>
+                  <select class="form-select" id="budget" required>
+                    <option value="">Select budget</option>
+                    <option value="budget">Budget ($500-$1000)</option>
+                    <option value="moderate">Moderate ($1000-$2000)</option>
+                    <option value="luxury">Luxury ($2000+)</option>
+                  </select>
+                </div>
+                <div class="col-12">
+                  <label class="form-label">Special Requests</label>
+                  <textarea class="form-control" id="message" rows="4" placeholder="Tell us about your preferences..."></textarea>
+                </div>
+                <div class="col-12 text-center">
+                  <button type="submit" class="btn btn-primary btn-lg px-5 booking-submit">Get Your Personalized Quote</button>
+                </div>
+              </form>
+              <div id="booking-success" class="alert alert-success mt-4 text-center d-none">
+                <i class="fas fa-check-circle fa-3x mb-3"></i>
+                <h4>Booking Request Received!</h4>
+                <p>We'll contact you within 24 hours with your personalized travel plan.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="py-5">
+      <div class="container">
+        <div class="text-center mb-5">
+          <h2 class="section-title" id="testimonials-title">What Travelers Say</h2>
+          <p class="text-muted">Hear from our satisfied customers</p>
+        </div>
+        <div class="row g-4">
+          <div class="col-md-4">
+            <div class="testimonial-card">
+              <div class="testimonial-header">
+                <div class="testimonial-avatar">
+                  <i class="fas fa-user-circle fa-3x"></i>
+                </div>
+                <div class="testimonial-info">
+                  <h5>Sarah Johnson</h5>
+                  <div class="stars">
+                    <i class="fas fa-star text-warning"></i>
+                    <i class="fas fa-star text-warning"></i>
+                    <i class="fas fa-star text-warning"></i>
+                    <i class="fas fa-star text-warning"></i>
+                    <i class="fas fa-star text-warning"></i>
+                  </div>
+                </div>
+              </div>
+              <p class="testimonial-text">"Amazing experience! The team organized everything perfectly. Santorini was a dream come true. Highly recommended!"</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="testimonial-card">
+              <div class="testimonial-header">
+                <div class="testimonial-avatar">
+                  <i class="fas fa-user-circle fa-3x"></i>
+                </div>
+                <div class="testimonial-info">
+                  <h5>Michael Chen</h5>
+                  <div class="stars">
+                    <i class="fas fa-star text-warning"></i>
+                    <i class="fas fa-star text-warning"></i>
+                    <i class="fas fa-star text-warning"></i>
+                    <i class="fas fa-star text-warning"></i>
+                    <i class="fas fa-star text-warning"></i>
+                  </div>
+                </div>
+              </div>
+              <p class="testimonial-text">"Professional service and excellent value for money. Dubai trip exceeded all expectations. Will book again!"</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="testimonial-card">
+              <div class="testimonial-header">
+                <div class="testimonial-avatar">
+                  <i class="fas fa-user-circle fa-3x"></i>
+                </div>
+                <div class="testimonial-info">
+                  <h5>Emma Rodriguez</h5>
+                  <div class="stars">
+                    <i class="fas fa-star text-warning"></i>
+                    <i class="fas fa-star text-warning"></i>
+                    <i class="fas fa-star text-warning"></i>
+                    <i class="fas fa-star text-warning"></i>
+                    <i class="fas fa-star text-warning"></i>
+                  </div>
+                </div>
+              </div>
+              <p class="testimonial-text">"Bali was incredible! Every detail was taken care of. Best vacation we've ever had. Thank you so much!"</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact" class="bg-dark text-white py-5">
+      <div class="container">
+        <div class="row g-4">
+          <div class="col-md-4">
+            <h5 class="mb-3">Anubhav Travels</h5>
+            <p class="text-muted">Your trusted travel partner for memorable experiences. Recognized by the Department of Tourism, Government of India.</p>
+          </div>
+          <div class="col-md-2">
+            <h5 class="mb-3">Quick Links</h5>
+            <ul class="list-unstyled">
+              <li><a href="#about" class="text-muted text-decoration-none">About Us</a></li>
+              <li><a href="#services" class="text-muted text-decoration-none">Services</a></li>
+              <li><a href="#booking" class="text-muted text-decoration-none">Book Now</a></li>
+              <li><a href="#contact" class="text-muted text-decoration-none">Contact</a></li>
+            </ul>
+          </div>
+          <div class="col-md-3">
+            <h5 class="mb-3">Contact</h5>
+            <ul class="list-unstyled text-muted">
+              <li><i class="fas fa-envelope me-2"></i>info@time2journey.com</li>
+              <li><i class="fas fa-envelope me-2"></i>anubhavtravel@gmail.com</li>
+              <li><i class="fas fa-phone me-2"></i>011-64005009</li>
+              <li><i class="fas fa-mobile-alt me-2"></i>8826302202, 9871354004</li>
+              <li><i class="fas fa-map-marker-alt me-2"></i>207 (2nd Floor), Chanderkanta<br>
+              &nbsp;&nbsp;&nbsp;&nbsp;Near New Ashok Nagar Metro Station<br>
+              &nbsp;&nbsp;&nbsp;&nbsp;Delhi - 110096</li>
+              <li><i class="fas fa-globe me-2"></i>http://time2journey.com</li>
+            </ul>
+          </div>
+          <div class="col-md-3">
+            <h5 class="mb-3">Follow Us</h5>
+            <div class="social-links">
+              <a href="https://facebook.com" target="_blank" class="text-white me-3"><i class="fab fa-facebook fa-2x"></i></a>
+              <a href="https://twitter.com" target="_blank" class="text-white me-3"><i class="fab fa-twitter fa-2x"></i></a>
+              <a href="https://instagram.com" target="_blank" class="text-white"><i class="fab fa-instagram fa-2x"></i></a>
+            </div>
+          </div>
+        </div>
+        <hr class="my-4 bg-secondary">
+        <div class="text-center text-muted">
+          <p id="footer-text" class="mb-0">© 2024 Anubhav Travels - Time 2 Journey. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
