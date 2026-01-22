@@ -138,14 +138,23 @@ $(document).ready(function()
 		if($('.home_slider').length)
 		{
 			var homeSlider = $('.home_slider');
-			homeSlider.owlCarousel(
-			{
-				items:1,
-				autoplay:false,
-				loop:true,
-				nav:false,
-				dots:false,
-				smartSpeed:1200
+			homeSlider.on('initialized.owl.carousel', function() {
+				homeSlider.trigger('play.owl.autoplay', [5000]);
+			});
+			
+			homeSlider.owlCarousel({
+				items: 1,
+				autoplay: true,
+				autoplayTimeout: 5000,
+				autoplayHoverPause: true,
+				autoplaySpeed: 1000,
+				loop: true,
+				smartSpeed: 1000,
+				nav: false,
+				dots: false,
+				mouseDrag: false,
+				touchDrag: false,
+				pullDrag: false
 			});
 		}
 	}
